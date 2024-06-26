@@ -1,1 +1,3 @@
-File 1
+export default function getResponseFromAPI() {
+  return new Promise(() => {});
+}
