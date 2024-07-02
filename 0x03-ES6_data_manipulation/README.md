@@ -12,9 +12,6 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
 + [x] 5. **Typed Arrays**<br/>[5-typed_arrays.js](5-typed_arrays.js) contains a script that exports a function named `createInt8TypedArray` with the following requirements:
 + [x] 6. **Set data structure**<br/>[6-set.js](6-set.js) contains a script that exports a function named `setFromArray` with the following requirements:
 + [x] 7. **More set data structure**<br/>[7-has_array_values.js](7-has_array_values.js) contains a script that exports a function named `hasValuesFromArray` with the following requirements:
-  + Returns a boolean if all the elements in the array exist within the set.
-  + It accepts two arguments: a `set` (Set) and an `array` (Array).
-
 + [x] 8. **Clean set**<br/>[8-clean_set.js](8-clean_set.js) contains a script that exports a function named `cleanSet` with the following requirements:
 + [x] 9. **Map data structure**<br/>[9-groceries_list.js](9-groceries_list.js) contains a script that exports a function named `groceriesList` with the following requirements:
 + [x] 10. **More map data structure**<br/>[10-update_uniq_items.js](10-update_uniq_items.js) contains a script that exports a function named `updateUniqueItems` with the following requirements:
