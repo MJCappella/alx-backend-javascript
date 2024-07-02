@@ -10,14 +10,6 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
 + [x] 3. **Reduce**<br/>[3-get_ids_sum.js](3-get_ids_sum.js) contains a script that exports a function named `getStudentIdsSum` with the following requirements:
 + [x] 4. **Combine**<br/>[4-update_grade_by_city.js](4-update_grade_by_city.js) contains a script that exports a function named `updateStudentGradeByCity` with the following requirements:
   + Returns an array of students for a specific city with their new grade.
-  + It should accept a list of students (from `getListStudents`), a `city` (String), and `newGrades` (Array of “grade” objects) as parameters.
-  + `newGrades` is an array of objects with this format:
-    ```js
-    {
-      studentId: Number,
-      grade: Number,
-    }
-    ```
 
 + [x] 5. **Typed Arrays**<br/>[5-typed_arrays.js](5-typed_arrays.js) contains a script that exports a function named `createInt8TypedArray` with the following requirements:
   + Returns a new `ArrayBuffer` with an `Int8` value at a specific position.
