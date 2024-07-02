@@ -7,15 +7,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
 + [x] 0. **Basic list of objects**<br/>[0-get_list_students.js](0-get_list_students.js) contains a script that exports a function named `getListStudents` with the following requirements:
 + [x] 1. **More mapping**<br/>[1-get_list_student_ids.js](1-get_list_student_ids.js) contains a script that exports a function named `getListStudentIds` with the following requirements:
 + [x] 2. **Filter**<br/>[2-get_students_by_loc.js](2-get_students_by_loc.js) contains a script that exports a function named `getStudentsByLocation` with the following requirements:
-  + Returns an array of objects who are located in a specific city.
-  + It should accept a list of students (from `getListStudents`) and a `city` (string) as parameters.
-  + You must use the `filter` function on the array.
-
 + [x] 3. **Reduce**<br/>[3-get_ids_sum.js](3-get_ids_sum.js) contains a script that exports a function named `getStudentIdsSum` with the following requirements:
-  + Returns the sum of all the student ids.
-  + It should accept a list of students (from `getListStudents`) as a parameter.
-  + You must use the `reduce` function on the array.
-
 + [x] 4. **Combine**<br/>[4-update_grade_by_city.js](4-update_grade_by_city.js) contains a script that exports a function named `updateStudentGradeByCity` with the following requirements:
   + Returns an array of students for a specific city with their new grade.
   + It should accept a list of students (from `getListStudents`), a `city` (String), and `newGrades` (Array of “grade” objects) as parameters.
