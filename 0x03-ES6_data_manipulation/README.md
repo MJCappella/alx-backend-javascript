@@ -53,33 +53,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
   + It accepts two arguments: a `set` (Set) and an `array` (Array).
 
 + [x] 8. **Clean set**<br/>[8-clean_set.js](8-clean_set.js) contains a script that exports a function named `cleanSet` with the following requirements:
-  + Returns a string of all the set values that start with a specific string (`startString`).
-  + It accepts two arguments: a `set` (Set) and a `startString` (String).
-  + When a value starts with `startString` you only append the rest of the string. The string contains all the values of the set separated by `-`.
-
 + [x] 9. **Map data structure**<br/>[9-groceries_list.js](9-groceries_list.js) contains a script that exports a function named `groceriesList` with the following requirements:
-  + Returns a map of groceries with the following items (name, quantity):
-    ```cs
-    "Apples", 10
-    "Tomatoes", 10
-    "Pasta", 1
-    "Rice", 1
-    "Banana", 5
-    ```
-
 + [x] 10. **More map data structure**<br/>[10-update_uniq_items.js](10-update_uniq_items.js) contains a script that exports a function named `updateUniqueItems` with the following requirements:
-  + Returns an updated map for all items with initial quantity at 1.
-  + It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.
-  + For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error `Cannot process` should be thrown.
-
 + [x] 11. **Weak link data structure**<br/>[100-weak.js](100-weak.js) contains a script that meets the following requirements:
-  + Export a `const` instance of `WeakMap` and name it `weakMap`.
-  + Export a new function named `queryAPI`. It should accept an endpoint argument like so:
-    ```js
-    {
-      protocol: 'http',
-      name: 'getUsers',
-    }
-    ```
-  + Track within the `weakMap` the number of times `queryAPI` is called for each endpoint.
-  + When the number of queries is >= 5 throw an error with the message `Endpoint load is high`.
+ 
