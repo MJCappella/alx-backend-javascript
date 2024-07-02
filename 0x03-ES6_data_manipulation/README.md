@@ -9,17 +9,8 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
 + [x] 2. **Filter**<br/>[2-get_students_by_loc.js](2-get_students_by_loc.js) contains a script that exports a function named `getStudentsByLocation` with the following requirements:
 + [x] 3. **Reduce**<br/>[3-get_ids_sum.js](3-get_ids_sum.js) contains a script that exports a function named `getStudentIdsSum` with the following requirements:
 + [x] 4. **Combine**<br/>[4-update_grade_by_city.js](4-update_grade_by_city.js) contains a script that exports a function named `updateStudentGradeByCity` with the following requirements:
-  + Returns an array of students for a specific city with their new grade.
-
 + [x] 5. **Typed Arrays**<br/>[5-typed_arrays.js](5-typed_arrays.js) contains a script that exports a function named `createInt8TypedArray` with the following requirements:
-  + Returns a new `ArrayBuffer` with an `Int8` value at a specific position.
-  + It should accept three arguments: `length` (Number), `position` (Number), and `value` (Number).
-  + If adding the value is not possible the error `Position outside range` should be thrown.
-
 + [x] 6. **Set data structure**<br/>[6-set.js](6-set.js) contains a script that exports a function named `setFromArray` with the following requirements:
-  + Returns a `Set` from an array.
-  + It accepts an argument (Array, of any kind of element).
-
 + [x] 7. **More set data structure**<br/>[7-has_array_values.js](7-has_array_values.js) contains a script that exports a function named `hasValuesFromArray` with the following requirements:
   + Returns a boolean if all the elements in the array exist within the set.
   + It accepts two arguments: a `set` (Set) and an `array` (Array).
